@@ -27,7 +27,7 @@ public class StandAloneTestScenarioE2ETest extends BaseTest{
 		
 		
 		
-		
+		//Comment for Demo Purpose
 		ProductCatalogue productCatalogue = landingPage.loginApplication(input.get("email"),input.get("password") );
 		CommonPage commonPage = productCatalogue.addProductToCart(input.get("productName"));
 				
